@@ -17,7 +17,7 @@ app.use(cors({ origin: allowedOrigins, credentials: true }))
 
 //Api Endpoints
 app.get("/", (req, res) => {
-    res.send("Server is up and running")
+    res.send("Mern Auth Server up and running")
 })
 
 app.use("/api/auth", AuthRouter)
