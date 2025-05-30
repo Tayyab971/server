@@ -8,7 +8,7 @@ import "dotenv/config"
 
 const app = express()
 const port = process.env.port || 4000
-
+console.log("server port", port)
 connectDB()
 const allowedOrigins = ["http://localhost:5173", "https://mern-auth-lyart-one.vercel.app/"]
 app.use(express.json())
