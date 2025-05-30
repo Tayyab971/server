@@ -11,4 +11,5 @@ AuthRouter.post("/verify-account", userAuth, verifyEmail)
 AuthRouter.post("/send-reset-otp", sendResetPasswordOTP)
 AuthRouter.post("/reset-password", resetPassword)
 AuthRouter.get("/is-authenticated", userAuth, isAuthenticated)
+//console.log("Auth routes loaded")
 export default AuthRouter
